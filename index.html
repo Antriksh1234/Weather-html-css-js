@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="translucent_div">
+        <img class = "weather-bg" src="images/weather-bg.jpg" alt="">
+    </div>
+
+    <div class="weather-card">
+        <div class="search_div">
+            <input type="text" id="searchBar" placeholder="Enter your city">
+            <button id="btn_search">Search</button>
+        </div>
+        
+        <h2 class="weather_text" id="date">Today</h1>
+        <h1 class="weather_text" id="temperature">26 °C</h1>
+        <p id = "weather_description"class="weather_text">Enter into the search box to get the weather</p>
+    </div>
+    <script src="scripts/date.js"></script>
+    <script src="scripts/apiKey.js"></script>
+    <script src="scripts/index.js"></script>
+</body>
+</html>
